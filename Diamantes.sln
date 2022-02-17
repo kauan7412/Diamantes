@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamantes.ConsoleApp", "Diamantes.ConsoleApp\Diamantes.ConsoleApp.csproj", "{0708FBE6-C775-415A-B5C4-07E114087571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diamantes.ConsoleApp", "Diamantes.ConsoleApp\Diamantes.ConsoleApp.csproj", "{0708FBE6-C775-415A-B5C4-07E114087571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diamantes02", "Diamantes02\Diamantes02.csproj", "{8EE27AC0-6DE0-4FEF-A628-E6E9D30A82F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0708FBE6-C775-415A-B5C4-07E114087571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0708FBE6-C775-415A-B5C4-07E114087571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0708FBE6-C775-415A-B5C4-07E114087571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE27AC0-6DE0-4FEF-A628-E6E9D30A82F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE27AC0-6DE0-4FEF-A628-E6E9D30A82F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE27AC0-6DE0-4FEF-A628-E6E9D30A82F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE27AC0-6DE0-4FEF-A628-E6E9D30A82F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -7,7 +7,8 @@ namespace Diamantes.ConsoleApp
         static void Main(string[] args)
         {
             // desenho superior do diamante
-            int tamanhodiamante = 7;
+            Console.WriteLine("digite um numero impar para o diamante");
+            int tamanhodiamante = Convert.ToInt32(Console.ReadLine());
             int quantidadeespaços = (tamanhodiamante - 1) / 2;
             int quantidadeX = 1;
             int quantidadeDeLinhaSuperior = (tamanhodiamante - 1) / 2;
@@ -30,6 +31,8 @@ namespace Diamantes.ConsoleApp
                 Console.Write("x");
             }
             Console.WriteLine();
+            quantidadeX = tamanhodiamante - 2;
+            quantidadeespaços++;
             for (int linhas = 0; linhas < quantidadeDeLinhaSuperior; linhas++)
             {
                 for (int i = 0; i < quantidadeespaços; i++)
